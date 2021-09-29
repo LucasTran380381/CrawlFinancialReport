@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EPPlus" Version="5.7.4" />
+        <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Data\.DS_Store" />
+        <None Remove="Source\DMC_062010.xlsx" />
+    </ItemGroup>
+
+</Project>
